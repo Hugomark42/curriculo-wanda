@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanda Maxmoff: Curriculum Viate</title>
+    <!--CSS INTERNO é declarado entre <style></style> na seção <head> do código-->
+        <style>
+            h2{margin-top: 80px;}
+
+            h2:hover{
+                color: brown;
+            }
+                
+            
+
+            body{
+                margin: 50px;
+                background-color: lightpink;
+                color: black;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            }
+
+            strong{
+                color: crimson;
+                font-weight: bold;
+            }
+
+            p::first-letter{
+            font-size: 20px;
+            font-weight: bold;
+            color: red;
+        }
+
+        /* essa regra afeta apenas ul e li dentro de nav */
+
+nav ul{
+    list-style-type: none;
+    width: 200px;
+}
+
+/* converte tags li e a para tipo de caixa (tipos: inline e caixa) */
+
+nav ul li, nav ul li a{
+
+display: block;
+
+}
+
+nav ul li a{
+background-color: rgb(236, 124, 124);
+color: black;
+            text-decoration: none;
+            height: 40px;
+            padding: 5px;
+            border-bottom: 2px rgb(248, 41, 4) solid;
+            line-height: 40px;
+}
+
+nav ul li a:hover{
+    background-color: #000;
+            color: #fff;
+}
+
+
+
+
+figure{
+            width: 300px;
+            height: 300px;
+            /* a propriedade abaixo centraliza um elemento do tipo caixa */
+            margin: 0 auto;
+            border: 4px solid #fff;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 3px 3px 5px #000;
+        }
+
+figure img{
+
+height: 100%;
+
+}
+
+
+
+
+        </style>
+</head>
+<body>
+<h1>Curriculum Vitae - Wanda Maxmoff</h1>
+
+
+    <!-- links de ancora são links que navegam procurando uma tag <a name> ou  
+    um atributo id dentro de uma tag -->
+
+    <figure><img src="./wanda.jpg"></figure>
+
+    <nav>
+        <ul>
+            <li><a href="#dados_pessoais">Dados Pessoais</a></li>
+            <li><a href="#experiencia_profissional">Experiência Profissional</a></li>
+            <li><a href="#experiencia_academica">Experiência Acadêmica</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#quem_sou_eu">Quem Sou eu</a></li>
+        </ul>
+    </nav>
+<a id="dados_pessoais"></a>
+<h2>Dados Pessoais</h2>
+<ul>
+    <li style="color:brown"><strong>Nome:</strong> Wanda Maxmoff</li>
+    <li><strong>Endereço:</strong> Georgia</li>
+    <li><strong>E-mail:</strong> <a href="mailto:wandavision1@gmail.com">wandavision1@gmail.com</a></li>
+    <li><strong>Facebook:</strong> <a href="https://www.facebook.com/MarvelFeiticeiraEscarlate/" target="_blank"> FeiticeiraEscarlate</a>
+    </li>
+    <li><strong>Instagram:</strong> <a href="https://www.instagram.com/feiticeiraescarlate_/" target="_blank">@feiticeita_escarlate01</a></li>
+</ul>
+<a id="experiência_profissional"></a>
+<h2>Experiência Profissional</h2>
+<ol type="I">
+<li><strong>Empresa:</strong> Iniciativa Vingadores desde 2015</li>
+<li><strong>Empresa:</strong> Atento Socovia desde 2009</li>
+</ol>
+
+<a id="experiência_acadêmica"></a>
+<h2>Experiência acadêmica</h2>
+<ol>
+<li><strong>Curso:</strong> Ensino Médio Completo</li>
+<li><strong>Curso:</strong> Ensino Superior na UFSS em ADM</li>
+<li><strong>Curso:</strong> Cursando Informática no 
+ <a href="https://www.sp.senac.br" target="_blank">senac </a> 
+</li>
+</ol>
+
+<a id="objetivos"></a>
+<h2>Objetivos</h2>
+ 
+<li><strong> Prentendo estar atuando em duas áreas simuntâneas, como Vingadora e 
+    estar atuando também na área de Informárica.</strong></li>
+
+<a id="quem_sou_eu"></a>
+<h2>Quem sou eu</h2>
+
+<p>Meu nome e Wanda, tenho 37 anos e atualmente trabalho e estudo</p>
+<p>Trabalho na Empresa Iniciativa Vingadores e estudo Técnico em Informática no SENAC</p>
+<p>Prentendo futuramente só atuar na Informática na área de manutenção de Computadores e Redes</p>
+<p>Meu foco atualmente na área de manutenção de Redes e de Computadores pois me chamou atenção o mercado de trabalho que esta crescendo bastante.</p>
+
+</body>
+</html>
+
+DESAFIO:
+
+<!-- INCLUIR MARGEM SUPERIOR EM TODOS OS SUBTÍTULOS COM VALOR DE 80 PIXELS -->
